@@ -67,10 +67,22 @@ public class PlayerScript : MonoBehaviour
             Speed = 5;
 
         }
-        //Then we use if statement to figure out what that variable should look like
+        //If player falls from bottom, lands on top
+        if (transform.position.y > 10)
+        {
+            //Remember Vector3 Shuffle
+            transform.position = new Vector3(0, -10, 0);
+            transform.position += new Vector3(0, -10.1f, 0);
+            Vector3 pos = transform.position;
+            pos.y = -10;
+            transform.position = pos;
+        }
+      
 
-        //If I hold the right arrow key, the player should move right. . .
-        if (Input.GetKey(KeyCode.RightArrow))
+            //Then we use if statement to figure out what that variable should look like
+
+            //If I hold the right arrow key, the player should move right. . .
+            if (Input.GetKey(KeyCode.RightArrow))
         {
             vel.x = Speed;
         }
