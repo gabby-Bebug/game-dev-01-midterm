@@ -26,7 +26,7 @@ public class PlayerScript : MonoBehaviour
     public int Score = 0;
 
     //Health
-    public int Health = 3;
+    public int Health = 4;
 
     //Start automatically gets triggered once when the objects turns on/the game starts
 
