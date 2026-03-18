@@ -49,12 +49,12 @@ public class PlayerScript : MonoBehaviour
    
         
     {
-        
+        //health
         HealthText.text = "Health:" + Health;
 
         //The code below controls the character's movement
-        //First we make a variable that we'll use to record how we want to move
-        Vector2 vel = new Vector2(0,RB.linearVelocityY);
+        //first code determines movement and falling speed
+        Vector2 vel = new Vector2(0,RB.linearVelocity.y);
 
         //sprint mechanic
         if (Input.GetKey(KeyCode.LeftShift))
