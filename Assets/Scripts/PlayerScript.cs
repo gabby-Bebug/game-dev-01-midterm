@@ -20,7 +20,7 @@ public class PlayerScript : MonoBehaviour
     
     //This will control how fast the player moves, and its jump height
     public float Speed = 5;
-    public float JumpPower = 8;
+    public float JumpPower = 6;
     
     //This is how many points we currently have
     public int Score = 0;
