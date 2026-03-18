@@ -462,7 +462,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Name
-      value: Wall (5)
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Layer
@@ -556,7 +556,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Name
-      value: Wall (3)
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Layer
@@ -689,7 +689,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Name
-      value: Wall (2)
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Layer
@@ -783,7 +783,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Name
-      value: Wall (4)
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Layer
@@ -1085,7 +1085,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Name
-      value: Wall (1)
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5434427550689264814, guid: 55d761a6578db0246b126d762d507a8b, type: 3}
       propertyPath: m_Layer
