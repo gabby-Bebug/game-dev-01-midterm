@@ -68,13 +68,13 @@ public class PlayerScript : MonoBehaviour
 
         }
         //If player falls from bottom, lands on top
-        if (transform.position.y > 10)
+        if (transform.position.y < -5.5)
         {
             //Remember Vector3 Shuffle
-            transform.position = new Vector3(0, -10, 0);
-            transform.position += new Vector3(0, -10.1f, 0);
+            transform.position = new Vector3(0, 4, 0);
+            transform.position += new Vector3(0, 4.4f, 0);
             Vector3 pos = transform.position;
-            pos.y = -10;
+            pos.y = 4;
             transform.position = pos;
         }
       
